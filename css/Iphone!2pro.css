@@ -1,0 +1,33 @@
+
+/* responsiveness for Iphone 12 pro */
+
+@media screen and (max-width:390px) {
+    .nav-top{
+        width: 100%;
+        height: 30px;
+    }
+    .nav-top *{
+        display: none;
+    }
+    .nav-top .amazon-logo{
+        display: inline;
+        height: 20px;
+    }
+    .nav-location{
+        display: contents;
+    }
+    .nav-top .search-bar{
+        display: inline;
+        width: 50%;
+        height: 30px;
+    }
+    .search-bar .select-menu{
+        height: 30px;
+    }
+    .search-bar .input-search{
+        height: 30px;
+    }
+    .search-bar .search-icon{
+        height: 30px;
+    }
+}
